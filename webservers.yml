@@ -1,0 +1,13 @@
+---
+- hosts: all
+  become: yes
+  tasks:
+  - name: i want to install webserver on ubuntu 16 node
+    apt:
+     name: apache2
+     state: present
+  
+  - name: i want to install webserver on RedHat node
+    apt:
+     name: httpd
+     state: present
