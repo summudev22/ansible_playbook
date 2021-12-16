@@ -1,0 +1,7 @@
+---
+- hosts: 172.31.23.5
+  become: yes
+  tasks: 
+  - name: i want to execute linux command directly
+     command: ping www.google.com
+     
