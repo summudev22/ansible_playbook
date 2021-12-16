@@ -3,4 +3,3 @@
   file:
     path: /home/ubuntu/mytestfile
     state: touch
-    
