@@ -3,5 +3,4 @@
   become: yes
   tasks: 
   - name: i want to execute linux command directly
-     command: ping www.google.com
-     
+  command: ping www.google.com
