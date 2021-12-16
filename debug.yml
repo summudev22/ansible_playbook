@@ -17,7 +17,7 @@
       when: myresult.stderr==""
 
    - name: install tree
-      apt: 
+     apt: 
        name: tree
        state: present
        when: myresult.stderr!=""           
